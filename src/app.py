@@ -3,7 +3,7 @@ from corva import Api, Cache, Logger, StreamTimeEvent
 from src.configuration import SETTINGS
 
 
-def konstantin_stream_app(event: StreamTimeEvent, api: Api, cache: Cache) -> list:
+def example_stream_app(event: StreamTimeEvent, api: Api, cache: Cache) -> list:
 
     # You have access to asset_id, company_id and real-time data records from event.
     asset_id = event.asset_id

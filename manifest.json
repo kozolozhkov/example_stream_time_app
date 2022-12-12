@@ -11,9 +11,9 @@
   },
   "application": {
     "type": "stream",
-    "key": "big-data-energy.konstantin_stream_time_app",
+    "key": "big-data-energy.example_stream_time_app",
     "visibility": "private",
-    "name": "Konstantin",
+    "name": "Example Stream App",
     "description": "This is the description of my app. You can do great things with it!",
     "summary": "More information about this app goes here",
     "category": "analytics",
@@ -34,7 +34,7 @@
     "app": {}
   },
   "datasets": {
-    "big-data-energy.konstantin-stream-time-app": {
+    "big-data-energy.example-stream-time-app": {
 
       "permissions": [
         "read",
